@@ -9,9 +9,9 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php echo base_url()?>template/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="<?php echo base_url('template/')?>plugins/fontawesome-free/css/all.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php echo base_url()?>template/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="<?php echo base_url('template/')?>dist/css/adminlte.min.css">
 </head>
 <body class="hold-transition sidebar-mini">
 <div class="wrapper">
@@ -56,7 +56,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php echo base_url()?>template/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="<?php echo base_url('template/')?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Abdul Dhohir</a>
@@ -119,13 +119,13 @@
     </div>
 
 <!-- jQuery -->
-<script src="<?php echo base_url()?>template/plugins/jquery/jquery.min.js"></script>
+<script src="<?php echo base_url('template/')?>plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap 4 -->
-<script src="<?php echo base_url()?>template/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="<?php echo base_url('template/')?>plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- bs-custom-file-input -->
-<script src="<?php echo base_url()?>template/plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
+<script src="<?php echo base_url('template/')?>plugins/bs-custom-file-input/bs-custom-file-input.min.js"></script>
 <!-- AdminLTE App -->
-<script src="<?php echo base_url()?>template/dist/js/adminlte.min.js"></script>
+<script src="<?php echo base_url('template/')?>dist/js/adminlte.min.js"></script>
 
 
 </body>
